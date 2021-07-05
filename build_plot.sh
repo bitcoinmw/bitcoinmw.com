@@ -1,5 +1,5 @@
 #! /bin/bash
-cd ci_uploads
+cd /var/www/html/ci_uploads
 rm -rf plot.tsv
 for d in ./bmw_wallet/*
 do
