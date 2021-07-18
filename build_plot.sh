@@ -43,7 +43,7 @@ done
 gnuplot -e "set terminal svg; plot 'bitcoinmw.tsv'" > bitcoinmw_cc.svg
 
 rm -rf bitcoinmw-node.tsv
-for d in ./rust-tor/*
+for d in ./bitcoinmw-node/*
 do
  echo "Processing $d"
  for f in $d/*
