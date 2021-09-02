@@ -7,6 +7,6 @@ do
  for f in $d/doc.tar.gz
  do
   echo "file: $f"
-  gzip -dc $f | tar xvf -
+  gzip -dc $f | tar xf -
  done
 done
